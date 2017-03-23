@@ -22,8 +22,8 @@ It's time to start your 100 days of internship application.
 #### Why Squarespace, and premade template recommendation
 -   Why:
     -   Keep portfolio and blog seperately on one platform professionally
-    -   Less junk information, good user experience, well-designed template and saving time
-    -   Smooth learning curve
+    -   Less junk information, good user experience, well-designed template, smooth learning curve and saving time
+    -   mobile editing, now I done all my blog post on subway
 -   Template:
     -   Three factors to consider: Navi Bar, Index/Project function, Blog
     -   [York](https://www.squarespace.com/templates/york): perfect for grid layout
@@ -95,7 +95,7 @@ div .sqs-slide {
 ```
 
 #### Embed full screen P5 sketch or sketch blocks under your template by add code block.
-1.  in your sketch, add css
+1.  in your sketch, add css to make sure you don't have a scroll bar
 ```css
 html, body {
   margin: 0;
@@ -103,6 +103,8 @@ html, body {
   overflow:hidden;
 }
 ```
+
+2.  modify your p5 code make the canvas full screen and responsive
 
 ```javascript
 //p5
@@ -115,10 +117,11 @@ function windowResized() {
 }
 ```
 
+3.  use P5 online editor to get the embed url, or upload to github and generate a github page to get the url of the sketch
 
-Add a code block
+4.  In your Squarespace Page, add a code block with the following HTML code and do not check "display source"
 
-Type following code into it as html code and do not check "display source"
+    -   for full screen:
 ```html
 <iframe src="your sketch url"
 style="position:fixed;
@@ -130,47 +133,36 @@ padding:0;
 overflow:hidden;
 z-index:99;"></iframe>
 ```
+
+  -  for simple block
+```
+```
 #### Customize grid showcase page
+in flyby demo
+
 #### sort your projects by positions/titles
+-   index or folder
+-   archive function
+-   summary function
+
 #### Embed PDF resume under your template
-#### documentation/case study tools and templates
-#### ITP survive toolkit
+upload your resume PDF to Squarespace first, it will be saved to the directory ```/s/yourFile```
 
-### Follow
----
-1.  Why squarespace?
-    -   wordpress sucks, too many junk comments and chaos of template
-    -   beautiful pre-made layout and easy to shift to another one without conflicts
-    -   let professional designer do professional stuff if you are in the wild
-    -   you have a project burst these two years, don't let commit, push or drag your src files drive you crazy
-    -   it support mobile editing, doing documentation on subway is cool
+use following code to embed PDF:
+```html
+<iframe src="/s/resume_WenqiLi.pdf#zoom=70" style=" display:block; width:100%;height:100vh;border:none; margin:0; padding:0; overflow:hidden;"></iframe>
+```
 
-2.  student discount, business account, domain and google analysis
-    -   student has a first year discount
-    -   purchase business account, you will need more than 20 pages
-    -   link your domain to your newly build website
-    -   inner built analysis system is cool, google analysis let you know if someone have checked your portfolio already(why am I care)
+#### Documentation/case study tools and templates
+-   text: [grammerly](https://www.grammarly.com/) /  [1checker](http://www.1checker.com/)
+-   font: [Font Pair](http://fontpair.co/)
+-   GIF: [GIF brewery 3](http://gifbrewery.com/)
+-   Video: iMove or [VUE](https://itunes.apple.com/us/app/vue-video-editor-movie-maker/id1114690993?mt=8)
+-   ICON: [noun project](https://thenounproject.com/)
+-   documentation: [casestudy](https://www.casestudy.club/case-studies)
 
-3.  popular landing page and how to make it in squarespace
-    -   grid
-    -   full bleed banner
-    -   creative coding projects
 
-4.  embed your resume pdf, lock it if you want
-
-5.  link all your publication platforms
-
-6.  categorize your projects
-    -   index or folder
-    -   archive function
-    -   summary function
-    -   hide your messy blog posts
-
-7.  tools and freebies to make your lives easier
-    -   text: grammerly /  1checker
-    -   font: font pair
-    -   GIF: GIF brewery 3
-    -   Video: iMove or VUE
-    -   ICON: noun
-    -   [casestudy](https://www.casestudy.club/case-studies)
-    -   cover letter generator
+#### A list of porfolio that we all know them
+-   Grid: [Gene Kogan](http://genekogan.com/)(Creative technologist)
+-   Side Bar: [Ben Light](http://blightdesign.com/)(Maker)
+-   Full screen:
