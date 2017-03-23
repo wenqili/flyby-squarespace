@@ -24,6 +24,17 @@ This Flyby will also cover some tools and resources to make your portfolio. It's
 
 5.  How to make a grid page and sort your projects by category
 
+6.  How to make a dropdown on your banner
+
+
+### Testing Material
+---
+-   Squarespace 14 days free trial account
+-   Google analytics account
+-   P5 editor sketch: https://alpha.editor.p5js.org/embed/S1VOZL12x
+-   github static page:
+https://wenqili.github.io/flyby-squarespace/test_sketch/
+-   a PDF file
 
 ### Why Squarespace, and premade template recommendation
 ---
