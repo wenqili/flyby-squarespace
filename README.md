@@ -1,4 +1,4 @@
-# Squarespace Cheatsheat Flyby
+# Squarespace Cheatsheet Flyby
 
 In this flyby, the first 5 to 10 minutes, we will go through some basic settings for Squarespace, which is alternative way to Wordpress and github static page.
 
