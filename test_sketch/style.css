@@ -1,0 +1,31 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+}
+
+
+.wrapper {
+  position: absolute;
+  text-align: center;
+  top:93%;
+  left:50%;
+  margin-left: -57.75px;
+}
+
+.btn {
+  /*position: absolute;*/
+  font-family: Avenir;
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 10px;
+  background: #1E3228;
+  padding: 8px 15px 8px 15px;
+  text-decoration: none;
+  border:none;
+}
+
+.btn:hover {
+  background: #000000;
+  text-decoration: none;
+}
