@@ -2,13 +2,13 @@
 
 In this flyby, the first 5 to 10 minutes, we will go through some basic settings for Squarespace, which is alternative way to Wordpress and github static page.
 
-Then, we will learn some quick and dirty ways to set up your portfolio and ITP blog seperately, set up analytics, embed creative coding sketches, embed PDF resume and customize your own template.
+Then, we will learn some quick and dirty ways to set up your portfolio and ITP blog separately, set up analytics, embed creative coding sketches, embed PDF resume and customize your own template.
 
 
 This Flyby will also cover some tools and resources to make your portfolio. It's time to start your 100 days of internship application.
 
 
-### Problems that will be solved
+### Problems to solve
 ---
 1.  How to set up a well-designed personal portfolio website without strong design and programming skills.
 
@@ -28,7 +28,7 @@ This Flyby will also cover some tools and resources to make your portfolio. It's
 ### Why Squarespace, and premade template recommendation
 ---
 -   Why:
-    -   Keep portfolio and blog seperately on one platform professionally
+    -   Keep portfolio and blog separately on one platform professionally
     -   Less junk information, good user experience, well-designed template, smooth learning curve and saving time
     -   mobile editing, now I do all my blog posts on subway
 
@@ -89,7 +89,11 @@ This Flyby will also cover some tools and resources to make your portfolio. It's
 ### Create a single-page cover page and embed your best project documentation.
 ---
 1.  Go to ```PAGES/"+"/Cover Page```, and choose a layout, here I use ```cover```.
+
+
 2.  Usually a cover page is the landing page, set it as a home page and add a button link the home page.
+
+
 3.  To embed a P5 Sketch as the background, remove the background image or video first, then inject the following code to the page header:
 ```html
 <iframe src="Here put your sketch url" style="
@@ -120,7 +124,8 @@ html, body {
 }
 ```
 
-2.  modify your code make sure the canvas full screen and responsive, here is how to do it in P5.js
+
+2.  Modify the code to make sure the canvas full screen and responsive, here is how to do it in P5.js
 
 ```javascript
 //p5
@@ -133,11 +138,14 @@ function windowResized() {
 }
 ```
 
+
 3.  Get the embed url in P5 editor, or generate a github static page
+
 
 4.  In your Squarespace page, add a code block with the following HTML code and do not check "display source"
 
-    -   for full screen embed:
+for full screen embed
+
 ```html
 <iframe src="your sketch url" style="position:fixed;
 top:0px; left:0px; bottom:0px; right:0px;
@@ -147,9 +155,10 @@ margin:0;
 padding:0;
 overflow:hidden;
 z-index:99;"></iframe>
+
 ```
 
-    -   for simple block
+for simple block embed
 ```html
 <iframe src="your sketch url" style="display:block;
 top:0px; left:0px; bottom:0px; right:0px;
@@ -176,7 +185,7 @@ in flyby demo
 
 ### Embed PDF resume under your template
 ---
-Upload your resume PDF to Squarespace first, it will be saved to the directory ```/s/yourFile```
+Upload your resume PDF to Squarespace first, it will be stored to the directory ```/s/yourFile```
 
 use following code to embed PDF:
 ```html
@@ -208,7 +217,7 @@ border:none; margin:0; padding:0; overflow:hidden;"></iframe>
 
 ### A portfolio list
 ---
--   Full screen: [Claudio Guglieri](http://guglieri.com/bioandwork/)(Designer), [Evan You](http://evanyou.me/)(Front-end Developer)
+-   Full Screen: [Claudio Guglieri](http://guglieri.com/bioandwork/)(Designer), [Evan You](http://evanyou.me/)(Front-end Developer)
 -   Grid: [Gene Kogan](http://genekogan.com/)(Creative technologist),  [Yotam Mann](https://yotammann.info/)(Musician)
 -   Side Bar: [Ben Light](http://blightdesign.com/)(Maker)
 -   Side Bar + Grid: [Sarah Rothberg](http://sarahrothberg.com/)(VR Director),
