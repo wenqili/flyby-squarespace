@@ -60,6 +60,12 @@ https://wenqili.github.io/flyby-squarespace/test_sketch/
 -   keep track of your website, and get valued information   
 -   [Squarespace Help](https://support.squarespace.com/hc/en-us/articles/205815608-Using-Google-Analytics-with-Squarespace)
 
+
+### Basic SEO settings
+---
+in flyby demo
+
+
 ### Customize your template by injecting css/JavaScript code to page header.
 ---
 -   inject to whole website/single page
@@ -220,11 +226,12 @@ border:none; margin:0; padding:0; overflow:hidden;"></iframe>
 ---
 -   Text: [grammerly](https://www.grammarly.com/) /  [1checker](http://www.1checker.com/)
 -   Font: [Font Pair](http://fontpair.co/)
+-   color: [coolers](https://coolors.co/)
+-   CSS: [animista](http://animista.net/)
 -   GIF: [GIF brewery 3](http://gifbrewery.com/)
 -   Video: iMove or [VUE](https://itunes.apple.com/us/app/vue-video-editor-movie-maker/id1114690993?mt=8)
 -   ICON: [noun project](https://thenounproject.com/)
 -   Documentation: [casestudy](https://www.casestudy.club/case-studies)
-
 
 ### A portfolio list
 ---
