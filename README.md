@@ -159,31 +159,27 @@ function windowResized() {
 3.  Get the embed url in P5 editor, or generate a github static page
 
 
-4.  In your Squarespace page, add a code block with the following HTML code and do not check "display source"
+4.  In your Squarespace page, add a code block with the following HTML code and do not check "display source",for full screen embed:  
+    ```html
+    <iframe src="your sketch url" style="position:fixed;
+    top:0px; left:0px; bottom:0px; right:0px;
+    width:100%; height:100%;
+    border:none;
+    margin:0;
+    padding:0;
+    overflow:hidden;
+    z-index:99;"></iframe>
+    ```
 
-for full screen embed
-
-```html
-<iframe src="your sketch url" style="position:fixed;
-top:0px; left:0px; bottom:0px; right:0px;
-width:100%; height:100%;
-border:none;
-margin:0;
-padding:0;
-overflow:hidden;
-z-index:99;"></iframe>
-
-```
-
-for simple block embed
-```html
-<iframe src="your sketch url" style="display:block;
-top:0px; left:0px; bottom:0px; right:0px;
-width:100%; height:100vh;
-border:none;
-margin:0; padding:0;
-overflow:hidden"></iframe>
-```
+1.  for simple block embed
+    ```html
+    <iframe src="your sketch url" style="display:block;
+    top:0px; left:0px; bottom:0px; right:0px;
+    width:100%; height:100vh;
+    border:none;
+    margin:0; padding:0;
+    overflow:hidden"></iframe>
+    ```
 
 
 ### Customize grid showcase page
